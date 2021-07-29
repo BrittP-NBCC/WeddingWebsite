@@ -89,7 +89,7 @@
 
     /* 4.2 Countdown */
     #countdown {
-        padding: 7rem 0rem;
+        padding: 8rem 0rem;
     }
 
     /* 4.3 Quote */
@@ -115,7 +115,7 @@
     /* 4.5 Our Story */
     #our-story {
         color: var(--clr-primary-200);
-        padding: 8rem 0rem;
+        padding: 5rem 0rem;
     }
 
     .txt-our-story {
@@ -158,7 +158,7 @@
         background-image: url("/img/img3.jpeg");
       
         /* Set a specific height */
-        min-height: 300px; 
+        min-height: 200px; 
       
         /* Create the parallax scrolling effect */
         background-attachment: fixed;
