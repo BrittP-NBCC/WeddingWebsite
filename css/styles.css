@@ -15,6 +15,7 @@
         
     5. Components
         5.1 Buttons
+        5.2 Paralax
 */
 
 /*  =================
@@ -75,7 +76,10 @@
     /* 4.1 Header */
     header {
         padding: 20rem 0rem 0rem 0rem;
-        background-color: #57abe2;
+        background-image: url("/img/img4.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
     .down-arrow {
@@ -90,8 +94,7 @@
 
     /* 4.3 Quote */
     #quote {
-        background-color: var(--clr-primary-200);
-        color: var(--clr-primary-700);
+        color: var(--clr-primary-200);
         padding: 3rem 0rem;
     }
 
@@ -104,14 +107,13 @@
 
     /* 4.4 Gallery */
     #gallery {
-        background-color: var(--clr-accent-300);
+        background-color: var(--clr-primary-200);
         color: var(--clr-primary-200);
         padding: 3rem 0rem;
     }
 
     /* 4.5 Our Story */
     #our-story {
-        background-color: var(--clr-primary-700);
         color: var(--clr-primary-200);
         padding: 8rem 0rem;
     }
@@ -128,13 +130,39 @@
     }
 
     /* 4.7 Footer */
-    footer {
-        background-color: var(--clr-primary-200);
-        color: var(--clr-primary-200);
-        padding: 4rem 0rem;
-    }
+  
 
 /*  =================
     5. Components
     ================= */
-    
+
+    /* 5.1 Buttons */
+
+    /* 5.2 Paralax */
+    .parallax1 {
+        /* The image used */
+        background-image: url("/img/img1.jpeg");
+      
+        /* Set a specific height */
+        min-height: 300px; 
+      
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+    .parallax2 {
+        /* The image used */
+        background-image: url("/img/img3.jpeg");
+      
+        /* Set a specific height */
+        min-height: 300px; 
+      
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
