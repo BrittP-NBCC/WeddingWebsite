@@ -1,0 +1,66 @@
+/*@import url('https://fonts.googleapis.com/css?family=PT+Mono&display=swap');*/
+
+/* TABLE OF CONTENTS
+    1. Custom Properties
+    2. Global Styles
+    3. Typography
+    4. Layout
+        4.1 Header
+        
+    5. Components
+        5.1 Buttons
+*/
+
+/*  =================
+    1. Custom Properties
+    ================= */
+:root { 
+    --clr-primary-200: #D9D9D9;
+    --clr-primary-500: #3b3b3d;
+    --clr-primary-700: #181717;
+    --clr-primary-900: rgba(24, 23, 23, 0.6);
+    --clr-accent-300: #57abe2;
+    --clr-accent-700: rgba(69, 110, 199, 0.2);
+    /*--font-mono: "PT Mono";*/
+}
+
+/*  =================
+    2. Global Styles
+    ================= */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--clr-primary-500);
+    color: var(--clr-primary-200);
+    font-family: "Calibre", sans-serif;
+    overflow-x: hidden;
+}
+
+/*  =================
+    3. Typography
+    ================= */
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+}
+
+/*  =================
+    4. Layout
+    ================= */
+
+/* 4.1 Header */
+header {
+    padding: 20rem 0rem 0rem 0rem;
+    background-color: #57abe2;
+}
+
+.down-arrow {
+    text-align: center;
+    padding: 15rem 0rem 2rem 0rem;
+}
