@@ -6,6 +6,7 @@
     3. Typography
     4. Layout
         4.1 Header
+        4.2 Countdown
         
     5. Components
         5.1 Buttons
@@ -50,17 +51,50 @@ p {
     margin: 0;
 }
 
+.tab {
+    display: inline-block;
+    margin-left: 60px;
+}
+
 /*  =================
     4. Layout
     ================= */
 
 /* 4.1 Header */
-header {
-    padding: 20rem 0rem 0rem 0rem;
-    background-color: #57abe2;
-}
+    /* 4.1 Header */
+    header {
+        padding: 20rem 0rem 0rem 0rem;
+        background-color: #57abe2;
+    }
 
-.down-arrow {
-    text-align: center;
-    padding: 15rem 0rem 2rem 0rem;
-}
+    .down-arrow {
+        text-align: center;
+        padding: 15rem 0rem 2rem 0rem;
+    }
+
+    /* 4.2 Countdown */
+    #countdown {
+        padding: 7rem 0rem;
+    }
+
+    /* 4.3 Quote */
+    #quote {
+        background-color: var(--clr-primary-200);
+        color: var(--clr-primary-700);
+        padding: 3rem 0rem;
+    }
+
+    .quote-margin {
+        margin: auto;
+        margin: 0% 40%;
+        min-width: 250px;
+        padding-bottom: 2rem;
+    }
+
+    /* 4.4 Gallery */
+    #gallery {
+        background-color: var(--clr-accent-300);
+        color: var(--clr-primary-200);
+        padding: 3rem 0rem;
+    }
+    
