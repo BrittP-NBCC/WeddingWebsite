@@ -4,9 +4,14 @@
     1. Custom Properties
     2. Global Styles
     3. Typography
+        3.1 Tabs
     4. Layout
         4.1 Header
         4.2 Countdown
+        4.3 Gallery
+        4.4 Our Story
+        4.6 Timeline
+        4.7 Footer
         
     5. Components
         5.1 Buttons
@@ -15,52 +20,58 @@
 /*  =================
     1. Custom Properties
     ================= */
-:root { 
-    --clr-primary-200: #D9D9D9;
-    --clr-primary-500: #3b3b3d;
-    --clr-primary-700: #181717;
-    --clr-primary-900: rgba(24, 23, 23, 0.6);
-    --clr-accent-300: #57abe2;
-    --clr-accent-700: rgba(69, 110, 199, 0.2);
-    /*--font-mono: "PT Mono";*/
-}
+    :root { 
+        --clr-primary-200: #D9D9D9;
+        --clr-primary-500: #3b3b3d;
+        --clr-primary-700: #181717;
+        --clr-primary-900: rgba(24, 23, 23, 0.6);
+        --clr-accent-300: #57abe2;
+        --clr-accent-700: rgba(69, 110, 199, 0.2);
+        /*--font-mono: "PT Mono";*/
+    }
 
 /*  =================
     2. Global Styles
     ================= */
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
-}
+    *,
+    *::before,
+    *::after {
+        box-sizing: border-box;
+    }
 
-body{
-    background-color: var(--clr-primary-500);
-    color: var(--clr-primary-200);
-    font-family: "Calibre", sans-serif;
-    overflow-x: hidden;
-}
+    body{
+        background-color: var(--clr-primary-500);
+        color: var(--clr-primary-200);
+        font-family: "Calibre", sans-serif;
+        overflow-x: hidden;
+    }
 
 /*  =================
     3. Typography
     ================= */
-h1,
-h2,
-h3,
-p {
-    margin: 0;
-}
+    h1,
+    h2,
+    h3,
+    p {
+        margin: 0;
+    }
 
-.tab {
+    /* 3.1 Tabs */
+
+    .tab {
+        display: inline-block;
+        margin-left: 60px;
+    }
+
+    .tab-large {
     display: inline-block;
-    margin-left: 60px;
-}
+    margin-left: 175px;
+    }
 
 /*  =================
     4. Layout
     ================= */
 
-/* 4.1 Header */
     /* 4.1 Header */
     header {
         padding: 20rem 0rem 0rem 0rem;
@@ -97,4 +108,33 @@ p {
         color: var(--clr-primary-200);
         padding: 3rem 0rem;
     }
+
+    /* 4.5 Our Story */
+    #our-story {
+        background-color: var(--clr-primary-700);
+        color: var(--clr-primary-200);
+        padding: 8rem 0rem;
+    }
+
+    .txt-our-story {
+        font-size: 4em;
+    }
+
+    /* 4.6 Timeline */
+    #timeline {
+        background-color: var(--clr-primary-500);
+        color: var(--clr-primary-200);
+        padding: 25rem 0rem;
+    }
+
+    /* 4.7 Footer */
+    footer {
+        background-color: var(--clr-primary-200);
+        color: var(--clr-primary-200);
+        padding: 4rem 0rem;
+    }
+
+/*  =================
+    5. Components
+    ================= */
     
